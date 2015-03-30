@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+}
+body > header,
+body > main,
+body > footer {
+  margin: auto;
+  max-width: $content-width;
+}
+.column-1,
+.column-2,
+.column-3,
+.column-4,
+.column-5,
+.column-6 {
+  display: inline-block;
+  margin: $grid-vmargin $grid-hmargin;
+  min-height: 1em;
+  vertical-align: top;
+}
+.break {
+  clear: right;
+}
+.widen {
+  @include calc(min-width, "67% - 3em");
+}
+.baseline div {
+  vertical-align: baseline;
+}
+.inline {
+  display: inline-block;
+}
+
+/* 2 columns */
+@include media-query($on-tablet) {
+  .column-1,
+  .column-2 {
+    @include calc(width, "33% - 3em");
+  }
+  .column-3,
+  .column-4 {
+    @include calc(width, "67% - 3em");
+  }
+  .column-5,
+  .column-6 {
+    @include calc(width, "100% - 3em");
+  }
+}
+/* 3 columns */
+@include media-query($on-desktop) {
+  .column-1 {
+    width: 1 * $grid-hbase;
+    @include calc(max-width, "16% - 3em");
+  }
+  .column-2 {
+    width: 2 * $grid-hbase;
+    @include calc(max-width, "33% - 3em");
+  }
+  .column-3 {
+    width: 3 * $grid-hbase;
+    @include calc(max-width, "50% - 3em");
+  }
+  .column-4 {
+    width: 4 * $grid-hbase;
+    @include calc(max-width, "67% - 3em");
+  }
+  .column-5 {
+    width: 5 * $grid-hbase;
+    @include calc(max-width, "83% - 3em");
+  }
+  .column-6 {
+    width: 6 * $grid-hbase;
+    @include calc(max-width, "100% - 3em");
+  }
+  .widen {
+    min-width: 0;
+  }
+}

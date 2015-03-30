@@ -1,0 +1,41 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$base-font-family: adobe-garamond-pro, georgia, "times new roman", serif;
+$base-font-size:   16px;
+$base-line-height: 1.25;
+
+$grid-hbase:       12em;
+$grid-vbase:       3.75em;
+$grid-hmargin:     1em;
+$grid-vmargin:     1.25em;
+
+$black:            #111;
+$white:            #fff;
+$brand-primary:    #f8b9bb;
+$brand-p-shade:    darken($brand-primary, 15%);
+$brand-secondary:  #b7ede0;
+$brand-s-shade:    darken($brand-secondary, 20%);
+
+$content-width:    80em;
+
+$on-desktop:       1025px;
+$on-tablet:        361px;
+
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+@mixin calc($property, $expression) {
+  #{$property}: calc(#{$expression});
+}
+
+@import
+  "typography",
+  "layout",
+  "objects"
+;

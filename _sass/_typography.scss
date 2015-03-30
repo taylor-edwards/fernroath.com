@@ -1,0 +1,67 @@
+/* Block Elements */
+body {
+  background: $white;
+  color: $black;
+  font-family: $base-font-family;
+  font-size: 4vw;
+  line-height: $base-line-height;
+  padding: 1em 1em;
+}
+h1 {
+  font-size: 1.5em;
+  font-weight: normal;
+}
+h1,
+p,
+ul {
+  margin: 0 0 1em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Inline Elements */
+a,
+a:link {
+  color: $brand-p-shade;
+  text-decoration: none;
+}
+h1 a,
+h1 a:link,
+h1 a:visited {
+  color: $black;
+}
+a:focus,
+a:hover, {
+  color: $brand-s-shade;
+  outline: none;
+}
+a:active,
+a:visited
+h1 a:focus,
+h1 a:hover {
+  color: $brand-p-shade;
+}
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+
+@include media-query($on-tablet) {
+  body {
+    font-size: 3vw;
+    padding: 1em 1.5em;
+  }
+}
+@include media-query($on-desktop) {
+  body {
+    font-size: $base-font-size;
+    padding: (.5 * $grid-vbase) (.5 * $grid-hbase);
+  }
+}
