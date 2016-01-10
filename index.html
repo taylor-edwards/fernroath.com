@@ -2,22 +2,7 @@
 layout: default
 ---
 <div class="row">
-  <div class="column-2 widen">{{ site.description }}</div>
-  <div class="column-2">
-    <ul>
-      <li>Contact:</li>
-      <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-    </ul>
-    <ul>
-      <li>Social Media:</li>
-    {% if site.twitter_username %}
-      <li>Twitter: <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a></li>
-    {% endif %}
-    {% if site.instagram_username %}
-      <li>Instagram: <a href="https://instagram.com/{{ site.instagram_username }}">{{ site.instagram_username }}</a.</li>
-    {% endif %}
-    </ul>
-  </div>
+  <div class="column-3 widen">{{ site.description }}</div>
 </div>
 <hr>
 <div class="row portfolio">
