@@ -2,8 +2,14 @@
 <html>
   {% include head.html %}
   <body>
-    <header class="baseline">{% include header.html %}</header>
-    <main>{{ content }}</main>
-    <footer>{% include footer.html %}</footer>
+    {% include top.html %}
+    <div class="container">
+      <header>{% include header.html %}</header>
+      <hr role="presentation">
+      <main>{{ content }}</main>
+      <hr class="tablet-hide" role="presentation">
+      <footer>{% include footer.html %}</footer>
+    </div>
+    {% include bottom.html %}
   </body>
 </html>

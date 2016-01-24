@@ -1,17 +1,31 @@
-<div class="column-3"><h1><a href="{{ site.url }}">{{ site.title }}</a></h1></div>
-<div class="column-3 text-right">
-  <nav>
-    <ul>
-      <li class="inline"><h1><a href="{{ site.url }}">Portfolio</a></h1></li>
-  {% for page in site.pages %}
+<div class="column-3 text-left">
+  <h3 class="inline"><a href="{{ site.url }}" class="reversed">{{ site.title }}</a></h3>
+  <ul class="h3 inline inline-list">
+    <li>
+      <a href="">
+        <svg viewBox="0 0 512 512" class="icon">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+        </svg>
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <svg viewBox="0 0 512 512" class="icon">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+<div class="column-3 text-right mobile-hide">
+  <nav class="h3">
+    <ul class="inline-list separator">
+  {% assign pages = site.pages | sort: 'weight' %}
+  {% for page in pages %}
     {% if page.title %}
-      <li class="inline"><h1><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h1></li>
+      <li><a href="{{ page.url | prepend: site.baseurl }}" class="reversed">{{ page.title }}</a></li>
     {% endif %}
   {% endfor %}
-    {% if site.resume %}
-      <li class="inline"><h1>&nbsp;&nbsp;|&nbsp;&nbsp;</h1></li>
-      <li class="inline"><h1><a href="{{ site.resume }}">Résumé</a></h1></li>
-    {% endif %}
     </ul>
   </nav>
 </div>
