@@ -63,7 +63,7 @@ img {
 }
 @include media-query($on-tablet) {
   body {
-    margin: .5em 3em;
+    margin: .5em 1em;
   }
   .column-1,
   .column-2,
@@ -74,7 +74,9 @@ img {
     margin: .6666667em;
   }
   .column-1,
-  .column-2,
+  .column-2 {
+    width: calc(33.3333333% - 1.3333333em);
+  }
   .column-3 {
     width: calc(50% - 1.3333333em);
   }

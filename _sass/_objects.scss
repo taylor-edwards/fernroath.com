@@ -9,18 +9,11 @@ header > .column-3 > ul.inline-list {
 }
 .preview {
   background: $med-grey;
-  display: table;
-  height: 0;
   letter-spacing: .05em;
-  overflow: visible;
+  overflow: hidden;
   transition: background ease-out 750ms;
   word-spacing: -.1em;
-  & > a {
-    display: block;
-    height: 0;
-    overflow: hidden;
-    padding-bottom: 50%;
-    & > img {
+  & > a > img {
       display: block;
       -webkit-filter: blur(2px) brightness(0.9);
       filter: blur(2px) brightness(0.9);
@@ -29,10 +22,6 @@ header > .column-3 > ul.inline-list {
       mix-blend-mode: multiply;
       transition: filter cubic-bezier(0.35, 0, 1, 1) 550ms,
           -webkit-filter cubic-bezier(0.35, 0, 1, 1) 550ms;
-    }
-  }
-  &.column-4 > a {
-    padding-bottom: calc(50% + .62em);
   }
 }
 .preview:hover {
