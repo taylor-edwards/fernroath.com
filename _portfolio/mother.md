@@ -2,10 +2,11 @@
 layout:     page
 title:      Mother
 permalink:  /mother/
-preview:    /img/cover/mother-cover.jpg
+preview:    /img/previews/mother.jpg
 main:       /img/mother.jpg
-images:     []
-desc:       Conceptual Project
+process:    []
+desc:       Personal Work
+client:     Spring 2015
 ---
 
-Lorem ipsum dolor sit amet.
+I wanted to create a modern day Eve. One consisting of tattoos and representing the fullness of a woman. This piece is a balance between illustration and photography. 11×17 poster.

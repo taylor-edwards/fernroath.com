@@ -1,11 +1,12 @@
 ---
 layout:     page
-title:      Roots
+title:      ROOTS Studies
 permalink:  /roots/
-preview:    /img/cover/roots-1-cover.jpg
+preview:    /img/previews/roots-1.jpg
 main:       /img/roots-1.jpg
-images:     [/img/roots-2.jpg]
-desc:       Conceptual Project
+process:    [/img/roots-2.jpg]
+desc:       Personal Work
+client:     Spring 2015
 ---
 
-Lorem ipsum dolor sit amet.
+This is character creation I did starting out with cute little root people in my sketchbook that ended up turning into a small village of ROOTS. Each of the ROOTS is either based off of the color palette or general shape of a vegetable, fruit or actual plant.

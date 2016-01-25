@@ -4,13 +4,13 @@ layout: default
 <div class="row">
   <div class="column-6">
     <h1>{{ page.title }}</h1>
-    <img src="{{ page.cover }}">
+    <img src="{{ page.main }}">
   </div>
 </div>
 <div class="row">
   <div class="column-2">
     <ul>
-    {% for image in page.images %}
+    {% for image in page.process%}
       <li><img src="{{ image }}"></li>
     {% endfor %}
     </ul>

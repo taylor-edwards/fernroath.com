@@ -1,11 +1,12 @@
 ---
 layout:     page
-title:      Krylon Art Pop
-permalink:  /krylon-art-pop/
-preview:    /img/cover/krylon-spray-paint-cover.jpg
+title:      Krylon Nature POP
+permalink:  /krylon-nature-pop/
+preview:    /img/previews/krylon-spray-paint.jpg
 main:       /img/krylon-spray-paint.jpg
-images:     []
-desc:       Conceptual Project
+process:    []
+desc:       Student Work
+client:     Cornish College of the Arts, Spring 2015
 ---
 
-Lorem ipsum dolor sit amet.
+Saving the world one color at a time with “Honey, Honey”, “Basil” and “Sugar Cane”. For this project Krylon released a new line of spray paint in which we designed from the bottom up. starting with the concept of a nature friendly spray paint that played off of our connections for color to natural creatures I created a simple design that was to the point and would never confuse you on what color spray paint you were getting.

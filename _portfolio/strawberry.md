@@ -1,11 +1,12 @@
 ---
 layout:     page
-title:      Strawberry
+title:      SFL Babe
 permalink:  /strawberry/
-preview:    /img/cover/strawberry-blue-cover.jpg
+preview:    /img/previews/strawberry-blue.jpg
 main:       /img/strawberry-blue.jpg
-images:     [/img/strawberry-green.jpg, /img/strawberry-green.jpg]
+process:    [/img/strawberry-green.jpg, /img/strawberry-green.jpg]
 desc:       Conceptual Project
+client:
 ---
 
 Lorem ipsum dolor sit amet.
