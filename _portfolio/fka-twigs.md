@@ -1,10 +1,10 @@
 ---
-layout:     page
+layout:     page-horizontal
 title:      FKA Twigs Poster
 permalink:  /fka-twigs-poster/
-preview:    /img/previews/fka-twigs.jpg
-main:       /img/fka-twigs-type_a.jpg
-process:    [/img/fka-twigs-typa_b.jpg]
+preview:    fka-twigs-poster.jpg
+main:       [fka-twigs-type_a.jpg, fka-twigs-type_b.jpg]
+process:    [fka-gold-detail.jpg, fka-held.jpg]
 desc:       Student Work
 client:     Cornish College of the Arts, Fall 2015
 ---

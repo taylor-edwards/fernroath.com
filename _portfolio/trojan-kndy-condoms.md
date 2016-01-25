@@ -1,9 +1,9 @@
 ---
-layout:     page
+layout:     page-horizontal
 title:      Trojan KNDY Condoms
 permalink:  /trojan-kndy-condoms/
-preview:    /img/previews/dullahan.jpg
-main:       /img/dullahan.jpg
+preview:    trojan-kndy-condoms.jpg
+main:       trojan-kndy-condoms.jpg
 process:    []
 desc:       Student Work
 client:     Cornish College of the Arts, Spring 2015

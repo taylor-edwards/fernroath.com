@@ -1,10 +1,10 @@
 ---
-layout:     page
+layout:     page-horizontal
 title:      ROOTS Studies
 permalink:  /roots/
-preview:    /img/previews/roots-1.jpg
-main:       /img/roots-1.jpg
-process:    [/img/roots-2.jpg]
+preview:    roots.jpg
+main:       [roots-1.jpg, roots-2.jpg]
+process:    []
 desc:       Personal Work
 client:     Spring 2015
 ---

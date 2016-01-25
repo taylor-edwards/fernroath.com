@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<div class="row">
+{% assign length = page.main | size %}
+{% for image in page.main %}
+  <div class="column-{{ 6 | divided_by: length }}">
+    <img src="/img/displays/{{ image }}">
+  </div>
+{% endfor %}
+</div>
+<div class="row">
+  <div class="column-6">
+    <ul style="display: flex; flex: 1;">
+    {% for image in page.process %}
+      <li><img src="/img/process/{{ image }}"></li>
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class="row">
+  <div class="column-6">
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="column-2">
+    {{ content }}
+  </div>
+  <div class="column-2">
+    {{ page.meta }}
+  </div>
+</div>

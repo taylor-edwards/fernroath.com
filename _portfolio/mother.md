@@ -1,9 +1,9 @@
 ---
-layout:     page
+layout:     page-vertical
 title:      Mother
 permalink:  /mother/
-preview:    /img/previews/mother.jpg
-main:       /img/mother.jpg
+preview:    mother.jpg
+main:       mother.jpg
 process:    []
 desc:       Personal Work
 client:     Spring 2015

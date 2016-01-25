@@ -13,17 +13,16 @@ header > .column-3 > ul.inline-list {
     display: block;
     height: 0;
     overflow: hidden;
-    padding-bottom: 40%;
+    padding-bottom: 50%;
     & > img {
       display: block;
-      -webkit-filter: blur(2px) brightness(0.9) contrast(.9);
-      filter: blur(2px) brightness(0.9) contrast(.9);
+      -webkit-filter: blur(2px) brightness(0.9);
+      filter: blur(2px) brightness(0.9);
       margin: auto;
       min-width: 100%;
       mix-blend-mode: multiply;
       transition: filter cubic-bezier(0.35, 0, 1, 1) 550ms,
-          -webkit-filter cubic-bezier(0.35, 0, 1, 1) 550ms,
-                contrast ease-out 750ms;
+          -webkit-filter cubic-bezier(0.35, 0, 1, 1) 550ms;
     }
   }
 }
