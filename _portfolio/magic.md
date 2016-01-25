@@ -2,7 +2,7 @@
 layout:     page
 title:      Magic
 permalink:  /magic/
-preview:    /img/cover/magic-cover.jpg
+preview:    /img/cover/magic.jpg
 main:       /img/magic.jpg
 images:     []
 desc:       Conceptual Project

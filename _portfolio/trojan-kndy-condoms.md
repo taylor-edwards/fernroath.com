@@ -2,7 +2,7 @@
 layout:     page
 title:      Trojan KNDY Condoms
 permalink:  /trojan-kndy-condoms/
-preview:    /img/cover/dullahan-cover.jpg
+preview:    /img/cover/dullahan.jpg
 main:       /img/dullahan.jpg
 images:     []
 desc:       Student Work
