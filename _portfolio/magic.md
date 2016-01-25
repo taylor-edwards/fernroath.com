@@ -1,10 +1,11 @@
 ---
 layout:     page-vertical
 title:      MAGIC
+shortname:  MAGIC
 permalink:  /magic/
 preview:    magic.jpg
 main:       magic.jpg
-process:    [magic-displayed.jpg, magic-process.jpg, magic-sketchbook.jpg]
+process:    [magic-process.jpg, magic-sketchbook.jpg]
 desc:       Personal Work
 client:     Cornish College of the Arts, Fall 2015
 ---

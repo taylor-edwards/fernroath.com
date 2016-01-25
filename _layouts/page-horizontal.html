@@ -3,6 +3,9 @@ layout: default
 ---
 <div class="row">
 {% assign length = page.main | size %}
+{% if length > 6 %}
+  {% assign length = 1 %}
+{% endif %}
 {% for image in page.main %}
   <div class="column-{{ 6 | divided_by: length }}">
     <img src="/img/displays/{{ image }}">
@@ -10,13 +13,15 @@ layout: default
 {% endfor %}
 </div>
 <div class="row">
-  <div class="column-6">
-    <ul style="display: flex; flex: 1;">
-    {% for image in page.process %}
-      <li><img src="/img/process/{{ image }}"></li>
-    {% endfor %}
-    </ul>
-  </div>
+  {% assign length = page.process | size %}
+  {% if length > 6 %}
+    {% assign length = 1 %}
+  {% endif %}
+  {% for image in page.process %}
+    <div class="column-{{ 6 || divided_by: length }}">
+      <img src="/img/process/{{ image }}">
+    </div>
+  {% endfor %}
 </div>
 <div class="row">
   <div class="column-6">

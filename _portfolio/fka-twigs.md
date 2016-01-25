@@ -1,6 +1,7 @@
 ---
 layout:     page-horizontal
 title:      FKA Twigs Poster
+shortname:  FKA Twigs
 permalink:  /fka-twigs-poster/
 preview:    fka-twigs-poster.jpg
 main:       [fka-twigs-type_a.jpg, fka-twigs-type_b.jpg]

@@ -1,10 +1,11 @@
 ---
 layout:     page-horizontal
 title:      Tough Bunni
+shortname:  Tough Bunni
 permalink:  /tough-bunni/
 preview:    tough-bunni.jpg
 main:       [tough-bunni-1.jpg, tough-bunni-2.jpg, tough-bunni-3.jpg]
-process:    [tough-process-1.jpg, tough-process-2.jpg, tough-process-3.jpg]
+process:    []
 desc:       Personal Work
 client:     Summer 2015
 ---

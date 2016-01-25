@@ -1,6 +1,7 @@
 ---
 layout:     page-vertical
 title:      Mother
+shortname:  Mother
 permalink:  /mother/
 preview:    mother.jpg
 main:       mother.jpg

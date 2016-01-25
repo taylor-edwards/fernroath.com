@@ -1,6 +1,7 @@
 ---
 layout:     page-horizontal
 title:      ROOTS Studies
+shortname:  ROOTS Studies
 permalink:  /roots/
 preview:    roots.jpg
 main:       [roots-1.jpg, roots-2.jpg]
