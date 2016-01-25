@@ -1,6 +1,12 @@
 header > .column-3 > ul.inline-list {
   float: right;
 }
+.image-list > li {
+  margin: .6666667em 0;
+  &:first-child {
+    margin-top: 0;
+  }
+}
 .preview {
   background: $med-grey;
   display: table;
@@ -24,6 +30,9 @@ header > .column-3 > ul.inline-list {
       transition: filter cubic-bezier(0.35, 0, 1, 1) 550ms,
           -webkit-filter cubic-bezier(0.35, 0, 1, 1) 550ms;
     }
+  }
+  &.column-4 > a {
+    padding-bottom: calc(50% + .62em);
   }
 }
 .preview:hover {
@@ -66,4 +75,13 @@ svg {
   header > .column-3 > ul.inline-list {
     float: none;
   }
+  .image-list > li {
+    margin: 1.3333333em 0;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+@include media-query($on-desktop) {
+
 }

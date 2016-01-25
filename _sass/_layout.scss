@@ -28,6 +28,9 @@ footer {
 main {
   margin: 1em 0 1.25em;
 }
+footer {
+  margin-bottom: .75em;
+}
 .container {
   margin: auto;
   max-width: 1200px;
@@ -60,7 +63,7 @@ img {
 }
 @include media-query($on-tablet) {
   body {
-    margin: .5em 2em;
+    margin: .5em 3em;
   }
   .column-1,
   .column-2,
@@ -68,7 +71,7 @@ img {
   .column-4,
   .column-5,
   .column-6 {
-    margin: .6666667em .6666667em;
+    margin: .6666667em;
   }
   .column-1,
   .column-2,
@@ -86,7 +89,7 @@ img {
 }
 @include media-query($on-desktop) {
   body {
-    margin: 1em 4em;
+    margin: 1em 8em;
   }
   .column-1 {
     width: calc(16.6666667% - 1.3333333em);

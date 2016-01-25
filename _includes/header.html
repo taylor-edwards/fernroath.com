@@ -1,20 +1,24 @@
 <div class="column-3 text-left">
-  <h3 class="inline"><a href="{{ site.url }}" class="reversed">{{ site.title }}</a></h3>
+  <h3 class="inline"><a href="/" class="reversed">{{ site.title }}</a></h3>
   <ul class="h3 inline inline-list">
+  {% if site.instagram_username %}
     <li>
-      <a href="">
+      <a href="https://www.instagram.com/{{ site.instagram_username }}/">
         <svg viewBox="0 0 512 512" class="icon">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
         </svg>
       </a>
     </li>
+  {% endif %}
+  {% if site.twitter_username %}
     <li>
-      <a href="">
+      <a href="https://twitter.com/{{ site.twitter_username }}">
         <svg viewBox="0 0 512 512" class="icon">
           <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#twitter"></use>
         </svg>
       </a>
     </li>
+  {% endif %}
   </ul>
 </div>
 <div class="column-3 text-right mobile-hide">

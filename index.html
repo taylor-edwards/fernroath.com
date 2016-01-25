@@ -5,9 +5,10 @@ permalink: /
 weight:    0
 ---
 <div class="row portfolio">
-{% for entry in site.portfolio %}
-  <div class="column-2 preview">
-    <a href="{{ entry.url }}" class="inversed">
+{% assign pages = site.portfolio | sort: 'weight' %}
+{% for entry in pages %}
+  <div class="column-{% if entry.featured %}4{% else %}2{% endif %} preview">
+    <a href="{{ entry.url }}">
       <img src="/img/previews/{{ entry.preview }}">
       <h2 class="overlay">{{ entry.shortname }}</h2>
     </a>
