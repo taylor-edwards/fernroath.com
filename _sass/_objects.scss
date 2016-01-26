@@ -71,6 +71,9 @@ svg {
   background: #099;
   border-radius: 100%;
 }
+.linkedin {
+  margin-left: -4px;
+}
 @include media-query($on-tablet) {
   header > .column-3 > ul.inline-list {
     float: none;
