@@ -5,7 +5,7 @@ shortname:  Mother
 permalink:  /mother/
 preview:    mother.jpg
 main:       mother.jpg
-process:    []
+process:    [mother-process-1.jpg, mother-process-2.jpg]
 desc:       Personal Work
 client:     Spring&nbsp;2015
 featured:   false
