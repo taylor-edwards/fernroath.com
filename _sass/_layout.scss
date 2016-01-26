@@ -35,7 +35,7 @@ footer {
   margin: auto;
   max-width: 1200px;
 }
-.row {
+.row:last-of-type {
   margin: 0 0 1.3333333em;
 }
 .column-1,
@@ -92,7 +92,7 @@ img {
   .column-4,
   .column-5,
   .column-6 {
-    margin: .6666667em;
+    margin: .5em .6666667em;
   }
   .column-1,
   .column-2 {
