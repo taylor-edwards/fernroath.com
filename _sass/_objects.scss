@@ -60,6 +60,17 @@ svg {
   vertical-align: text-bottom;
   width: 1.3333333em;
 }
+.flipped-h {
+  transform: scaleX(-1);
+}
+.flipped-v {
+  transform: scaleY(-1);
+}
+.arrow:hover > .icon {
+  color: #fff;
+  background: #099;
+  border-radius: 100%;
+}
 @include media-query($on-tablet) {
   header > .column-3 > ul.inline-list {
     float: none;
