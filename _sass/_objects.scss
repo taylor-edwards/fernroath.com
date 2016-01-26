@@ -11,6 +11,7 @@ header > .column-3 > ul.inline-list {
   background: $med-grey;
   letter-spacing: .05em;
   overflow: hidden;
+  transform: translate3d(0,0,0);
   transition: background ease-out 750ms;
   word-spacing: -.1em;
   & > a > img {
