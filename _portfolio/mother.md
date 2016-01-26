@@ -7,7 +7,7 @@ preview:    mother.jpg
 main:       mother.jpg
 process:    []
 desc:       Personal Work
-client:     Spring 2015
+client:     Spring&nbsp;2015
 featured:   false
 weight:     6
 ---

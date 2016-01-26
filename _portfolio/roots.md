@@ -7,7 +7,7 @@ preview:    roots.jpg
 main:       [roots-1.jpg, roots-2.jpg]
 process:    []
 desc:       Personal Work
-client:     Spring 2015
+client:     Spring&nbsp;2015
 featured:   false
 weight:     7
 ---

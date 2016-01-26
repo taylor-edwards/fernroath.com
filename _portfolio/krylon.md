@@ -7,7 +7,7 @@ preview:    krylon-spray-paint.jpg
 main:       krylon-spray-paint.jpg
 process:    [krylon-pink-closeup.jpg, krylon-yellow-closeup.jpg, krylon-green-closeup.jpg]
 desc:       Student Work
-client:     Cornish College of the Arts, Spring 2015
+client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts, Spring&nbsp;2015
 featured:   true
 weight:     1
 ---

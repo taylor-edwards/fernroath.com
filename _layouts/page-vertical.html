@@ -7,6 +7,8 @@ layout: default
     <img src="/img/displays/{{ image }}">
   {% endfor %}
   </div>
+{% assign length = page.process | size %}
+{% if length > 0 %}
   <div class="column-3">
     <ul class="image-list">
     {% for image in page.process %}
@@ -14,13 +16,12 @@ layout: default
     {% endfor %}
     </ul>
   </div>
+{% endif %}
 </div>
 <div class="row">
   <div class="column-6">
     <h1>{{ page.title }}</h1>
   </div>
-</div>
-<div class="row">
   <div class="column-3">
     {{ content }}
   </div>

@@ -24,12 +24,14 @@
 <div class="column-3 text-right mobile-hide">
   <nav class="h3">
     <ul class="inline-list separator">
-  {% assign pages = site.pages | sort: 'weight' %}
-  {% for page in pages %}
+{% assign pages = site.pages | sort: 'weight' %}
+{% for page in pages %}
+  {% if page.weight > 0 %}
     {% if page.title %}
       <li><a href="{{ page.url | prepend: site.baseurl }}" class="reversed">{{ page.title }}</a></li>
     {% endif %}
-  {% endfor %}
+  {% endif %}
+{% endfor %}
     </ul>
   </nav>
 </div>

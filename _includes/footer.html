@@ -1,5 +1,24 @@
-<div class="column-6">
-  <ul class="h3 inline inline-list float-right text-right tablet-hide">
+{% assign portfolio = site.portfolio | sort: 'weight' %}
+{% assign max = portfolio | size %}
+{% assign current = page.weight %}
+<div class="column-1 all text-left float-left">
+{% assign previous = current | minus: 1 %}
+{% if previous > 0 %}
+  {% for page in portfolio %}
+    {% if page.weight == previous %}
+      <a href="{{ page.permalink }}">&larr;</a>
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% for page in portfolio %}
+    {% if page.weight == max %}
+      <a href="{{ page.permalink }}">&larr;</a>
+    {% endif %}
+  {% endfor %}
+{% endif %}
+</div>
+<div class="column-4 all text-center float-left">
+  <ul class="h3 inline inline-list tablet-hide desktop-hide">
 {% assign pages = site.pages | sort: 'weight' %}
 {% for page in pages %}
   {% if page.title and page.weight != 0 %}
@@ -7,4 +26,20 @@
   {% endif %}
 {% endfor %}
   </ul>
+</div>
+<div class="column-1 all text-right float-right">
+{% assign next = current | plus: 1 %}
+{% if next < max %}
+  {% for page in portfolio %}
+    {% if page.weight == next %}
+      <a href="{{ page.permalink }}">&rarr;</a>
+    {% endif %}
+  {% endfor %}
+{% else %}
+  {% for page in portfolio %}
+    {% if page.weight == 1 %}
+      <a href="{{ page.permalink }}">&rarr;</a>
+    {% endif %}
+  {% endfor %}
+{% endif %}
 </div>

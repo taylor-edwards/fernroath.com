@@ -7,7 +7,7 @@ preview:    trojan-kndy-condoms.jpg
 main:       [trojan-kndy-condoms.jpg]
 process:    [kndy-birthday-texture.jpg, kndy-rockcandy-texture.jpg]
 desc:       Student Work
-client:     Cornish College of the Arts, Spring 2015
+client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts, Spring&nbsp;2015
 featured:   false
 weight:     8
 ---

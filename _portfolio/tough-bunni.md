@@ -7,7 +7,7 @@ preview:    tough-bunni.jpg
 main:       [tough-bunni-1.jpg, tough-bunni-2.jpg, tough-bunni-3.jpg]
 process:    []
 desc:       Personal Work
-client:     Summer 2015
+client:     Summer&nbsp;2015
 featured:   false
 weight:     3
 ---

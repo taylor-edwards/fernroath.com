@@ -7,7 +7,7 @@ preview:    fka-twigs-poster.jpg
 main:       [fka-twigs-type_a.jpg, fka-twigs-type_b.jpg]
 process:    [fka-layers.jpg, fka-gold-detail.jpg, fka-held.jpg]
 desc:       Student Work
-client:     Cornish College of the Arts, Fall 2015
+client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts, Fall&nbsp;2015
 featured:   false
 weight:     2
 ---
