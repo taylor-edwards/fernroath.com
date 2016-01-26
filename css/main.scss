@@ -3,31 +3,35 @@
 ---
 @charset "utf-8";
 
-$base-font-family: adobe-garamond-pro, georgia, "times new roman", serif;
+$base-serif:       "adobe-garamond-pro", georgia, "times new roman", serif;
+$base-sans:        "franklin-gothic-urw", "helvetica neue", helvetica, sans-serif;
 $base-font-size:   16px;
-$base-line-height: 1.25;
+$base-line-height: 1.3333333;
 
 $grid-hbase:       12em;
 $grid-vbase:       3.75em;
 $grid-hmargin:     1em;
 $grid-vmargin:     1.25em;
 
-$black:            #111;
+$black:            #222832;
+$med-grey:         #9ea6b1;
+$light-grey:       #dadcdf;
 $white:            #fff;
-$brand-primary:    #f8b9bb;
+$brand-primary:    #58595b;
 $brand-p-shade:    darken($brand-primary, 15%);
-$brand-secondary:  #b7ede0;
-$brand-s-shade:    darken($brand-secondary, 20%);
+$brand-secondary:  #009999;
+// $brand-s-shade:    darken($brand-secondary, 5%);
 
 $content-width:    80em;
 
 $on-desktop:       1025px;
-$on-tablet:        361px;
+$on-tablet:        561px;
+$on-mobile:        560px;
 
 @mixin media-query($device) {
-    @media screen and (min-width: $device) {
-        @content;
-    }
+  @media screen and (min-width: $device) {
+    @content;
+  }
 }
 
 @mixin calc($property, $expression) {

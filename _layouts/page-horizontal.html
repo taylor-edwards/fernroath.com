@@ -1,0 +1,39 @@
+---
+layout: portfolio
+---
+<div class="row">
+{% assign length = page.main | size %}
+{% if length > 6 %}
+  {% assign length = 1 %}
+{% endif %}
+{% for image in page.main %}
+  <div class="column-{{ 6 | divided_by: length }}">
+    <img src="/img/displays/{{ image }}">
+  </div>
+{% endfor %}
+</div>
+{% assign length = page.process | size %}
+{% if length > 0 %}
+<div class="row">
+  {% if length > 6 %}
+    {% assign length = 1 %}
+  {% endif %}
+  {% for image in page.process %}
+    <div class="column-{{ 6 || divided_by: length }}">
+      <img src="/img/process/{{ image }}">
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
+<div class="row">
+  <div class="column-6">
+    <h1>{{ page.title }}</h1>
+  </div>
+  <div class="column-3">
+    {{ content }}
+  </div>
+  <div class="column-1 tablet-hide mobile-hide"></div>
+  <div class="column-2">
+    <p>{{ page.client }}<br>{{ page.desc }}</p>
+  </div>
+</div>

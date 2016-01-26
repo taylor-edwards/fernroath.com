@@ -1,11 +1,42 @@
 body {
-  margin: 0;
+  margin: 0 .5em;
 }
-body > header,
-body > main,
-body > footer {
+// Bootstrap clearfix
+header,
+main,
+footer,
+.row,
+.clearfix {
+  *zoom: 1;
+  &::before,
+  &::after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+  &::after {
+    clear: both;
+  }
+}
+header,
+main,
+footer {
+  display: block;
+  margin: .5em 0 .5em;
+  position: relative;
+}
+main {
+  margin: 1em 0 0;
+}
+footer {
+  margin-bottom: .75em;
+}
+.container {
   margin: auto;
-  max-width: $content-width;
+  max-width: 1200px;
+}
+.row:last-of-type {
+  margin: 0 0 1.3333333em;
 }
 .column-1,
 .column-2,
@@ -13,66 +44,113 @@ body > footer {
 .column-4,
 .column-5,
 .column-6 {
-  display: inline-block;
-  margin: $grid-vmargin $grid-hmargin;
-  min-height: 1em;
-  vertical-align: top;
+  box-sizing: border-box;
+  float: left;
+  margin: .3333333em .5em;
+  position: relative;
+  width: calc(100% - 1em);
 }
-.break {
-  clear: right;
+.all.column-1 {
+  width: calc(16.6666667% - 1em);
 }
-.widen {
-  @include calc(min-width, "67% - 3em");
+.all.column-2 {
+  width: calc(33.3333333% - 1em);
 }
-.baseline div {
-  vertical-align: baseline;
+.all.column-3 {
+  width: calc(50% - 1em);
 }
-.inline {
-  display: inline-block;
+.all.column-4 {
+  width: calc(66.6666667% - 1em);
 }
-
-/* 2 columns */
+.all.column-5 {
+  width: calc(83.3333333% - 1em;)
+}
+.all.column-6 {
+  width: calc(100% - 1em);
+}
+img {
+  max-width: 100%;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+@media all and (max-width: $on-mobile) {
+  .mobile-hide {
+    display: none;
+  }
+}
 @include media-query($on-tablet) {
+  body {
+    margin: .5em 1em;
+  }
   .column-1,
-  .column-2 {
-    @include calc(width, "33% - 3em");
-  }
+  .column-2,
   .column-3,
-  .column-4 {
-    @include calc(width, "67% - 3em");
-  }
+  .column-4,
   .column-5,
   .column-6 {
-    @include calc(width, "100% - 3em");
+    margin: .5em .6666667em;
   }
-}
-/* 3 columns */
-@include media-query($on-desktop) {
-  .column-1 {
-    width: 1 * $grid-hbase;
-    @include calc(max-width, "16% - 3em");
-  }
+  .column-1,
   .column-2 {
-    width: 2 * $grid-hbase;
-    @include calc(max-width, "33% - 3em");
+    width: calc(33.3333333% - 1.3333333em);
   }
   .column-3 {
-    width: 3 * $grid-hbase;
-    @include calc(max-width, "50% - 3em");
+    width: calc(50% - 1.3333333em);
+  }
+  .column-4,
+  .column-5,
+  .column-6 {
+    width: calc(100% - 1.3333333em);
+  }
+
+  .all.column-1 {
+    width: calc(16.6666667% - 1.3333333em);
+  }
+  .all.column-2 {
+    width: calc(33.3333333% - 1.3333333em);
+  }
+  .all.column-3 {
+    width: calc(50% - 1.3333333em);
+  }
+  .all.column-4 {
+    width: calc(66.6666667% - 1.3333333em);
+  }
+  .all.column-5 {
+    width: calc(83.3333333% - 1.3333333em;)
+  }
+  .all.column-6 {
+    width: calc(100% - 1.3333333em);
+  }
+}
+@media all and (min-width: $on-tablet) and (max-width: $on-desktop) {
+  .tablet-hide {
+    display: none;
+  }
+}
+@include media-query($on-desktop) {
+  body {
+    margin: 1em 8em;
+  }
+  .column-1 {
+    width: calc(16.6666667% - 1.3333333em);
+  }
+  .column-2 {
+    width: calc(33.3333333% - 1.3333333em);
   }
   .column-4 {
-    width: 4 * $grid-hbase;
-    @include calc(max-width, "67% - 3em");
+    width: calc(66.6666667% - 1.3333333em);
   }
   .column-5 {
-    width: 5 * $grid-hbase;
-    @include calc(max-width, "83% - 3em");
+    width: calc(83.3333333% - 1.3333333em;)
   }
   .column-6 {
-    width: 6 * $grid-hbase;
-    @include calc(max-width, "100% - 3em");
+    width: calc(100% - 1.3333333em);
   }
-  .widen {
-    min-width: 0;
+  .desktop-hide {
+    display: none;
   }
 }

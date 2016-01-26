@@ -1,6 +1,6 @@
 # Site settings
 title: Fern Roath
-email: m.fern.r13@gmail.com
+email: me@fernroath.com
 description: > 
   Michaela Fern Roath was born in the small town of Deer Park, WA. 
   She started her journey in the relm of design in 2012 at Cornish 
@@ -10,13 +10,12 @@ description: >
   character design and illustration.
   
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://fernroath.com" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 
-twitter_username: FernRoath
+twitter_username: lavenderferncat
 instagram_username: lavenderferncat
-# github_username:  FernRoath
+linkedin_url: fernroath
 
-resume: assets/resume.pdf
 logo: assets/logo.png
 
 collections:

@@ -2,46 +2,88 @@
 body {
   background: $white;
   color: $black;
-  font-family: $base-font-family;
-  font-size: 4vw;
+  font-family: $base-serif;
+  font-size: $base-font-size;
   line-height: $base-line-height;
-  padding: 1em 1em;
+  text-rendering: optimizeLegibility;
+}
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: normal;
+  margin: 0;
 }
 h1 {
   font-size: 1.5em;
-  font-weight: normal;
 }
-h1,
+h2, .h2 {
+  font-size: 1.5em;
+}
+h3, .h3 {
+  font-size: 1.2em;
+}
+.space {
+  letter-spacing: .1em;
+}
 p,
 ul {
   margin: 0 0 1em;
+}
+h1 + p {
+  margin-top: 1em;
 }
 ul {
   list-style: none;
   padding: 0;
 }
+hr {
+  border: none;
+  border-bottom: .125em solid $brand-primary;
+  margin: 0;
+}
+.inline,
+.inline-list {
+  margin: 0 .15em 0 0;
+}
+.inline,
+.inline-list > li {
+  display: inline-block;
+}
+.separator > li:nth-child(n+2)::before {
+  content: "|";
+  margin: 0 .4em 0 .2em;
+}
 
 /* Inline Elements */
 a,
 a:link {
-  color: $brand-p-shade;
+  color: $brand-secondary;
   text-decoration: none;
 }
-h1 a,
-h1 a:link,
-h1 a:visited {
+a.reversed,
+a.reversed:link,
+a.reversed:visited {
   color: $black;
+}
+a.inversed,
+a.inversed:link {
+  color: #fff;
 }
 a:focus,
 a:hover, {
-  color: $brand-s-shade;
+  color: $black;
   outline: none;
 }
 a:active,
-a:visited
-h1 a:focus,
-h1 a:hover {
-  color: $brand-p-shade;
+a:visited,
+a.reversed:focus,
+a.reversed:hover,
+a.inversed:focus,
+a.inversed:hover {
+  color: $brand-secondary;
 }
 .text-left {
   text-align: left;
@@ -52,16 +94,13 @@ h1 a:hover {
 .text-right {
   text-align: right;
 }
-
 @include media-query($on-tablet) {
-  body {
-    font-size: 3vw;
-    padding: 1em 1.5em;
+  hr {
+    margin: 0 -.6666667em;
   }
 }
 @include media-query($on-desktop) {
-  body {
-    font-size: $base-font-size;
-    padding: (.5 * $grid-vbase) (.5 * $grid-hbase);
+  hr {
+    margin: 0 -2em;
   }
 }
