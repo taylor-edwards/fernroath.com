@@ -12,4 +12,4 @@ featured:   false
 weight:     7
 ---
 
-This is character creation I did starting out with cute little root people in my sketchbook that ended up turning into a small village of ROOTS. Each of the ROOTS is either based off of the color palette or general shape of a vegetable, fruit or actual plant.
+This is character creation I did starting out with cute little root people in my sketchbook that ended up turning into a small village of ROOTS. Each of the these little guys are either based off of the color palette or general shape of a vegetable, fruit or actual plant.
