@@ -12,4 +12,4 @@ featured:   false
 weight:     2
 ---
 
-18×24 hand screen printed poster. The assignment was to create a gig poster for a randomly selected artist/muscian in which I was assigned FKA Twigs. I wanted to capture both the elegance and the strange that she brings out with her music and videos. This is a four layer screen print using overlay to create a third color. TYPE A is the elegant version and TYPE B is the twist of strange, created with the collector audience in mind
+18×24 hand screen printed poster. The assignment was to create a gig poster for a randomly selected artist/muscian in which I was assigned FKA Twigs. I wanted to capture both the elegance and the strange that she brings out with her music and videos. This is a four layer screen print using overlay to create a third color. TYPE A is the elegant version and TYPE B is the twist of strange, created with the collector audience in mind.
