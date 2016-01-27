@@ -12,4 +12,4 @@ featured:   false
 weight:     6
 ---
 
-I wanted to create a modern day Eve. One consisting of tattoos and representing the fullness of a woman. This piece is a balance between illustration and photography. 11×17 poster.
+This project portrays a modern day Eve with tattoos who represents the fullness of a woman. This piece is a balance between illustration and photography. 11×17" poster.

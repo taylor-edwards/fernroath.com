@@ -12,4 +12,4 @@ featured:   false
 weight:     8
 ---
 
-“Suck on something sweet.” If Trojan released a new line of condoms, what would they be? I chose to do something focusing on non traditional flavors for the creative lovers. Using as little material as possible I created a small, easy access packaging for those who need protection and fun on the go. It’s a verity pack of three flavors “Birthday Cake”, “Rock Candy” and “Peach Ring”.
+“Suck on Something Sweet.” If Trojan released a new line of condoms, what would they be? I focused on non-traditional flavors for creative couples. Using as little material as possible I created a small, easy-access packaging for those who need protection and fun on the go. KNDY (KANDY) is a variety pack of the three flavors “Birthday Cake,” “Rock Candy” and “Peach Ring.”

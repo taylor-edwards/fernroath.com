@@ -12,4 +12,4 @@ featured:   false
 weight:     3
 ---
 
-Color Experiment. I used this to better myself as a digital illustrator. A triptych with each having a randomly generated color palette and created three rabbit warriors of magic, might and mischief. Each of the illustrations gains the title “Tough Bunni” blackletter type done by hand.
+Tough Bunni is a triptych that was focused on color experimentation through the formation of three rabbit warriors representing magic, might and mischief respectively. Each of these warriors gains the title “Tough Bunni” in blackletter type.

@@ -12,4 +12,4 @@ featured:   false
 weight:     7
 ---
 
-This is character creation I did starting out with cute little root people in my sketchbook that ended up turning into a small village of ROOTS. Each of the these little guys are either based off of the color palette or general shape of a vegetable, fruit or actual plant.
+This is a small character creation grove. This project started out in my sketchbook with an old root man who ended up turning into an entire small village of these ROOTS. Each of the these little guys is either based on my color palette or the general shape of a vegetable, fruit or plant.
