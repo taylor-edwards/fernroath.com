@@ -12,4 +12,4 @@ featured:   false
 weight:     4
 ---
 
-11×17" digital illustration of a monster with some summer fashion. Clothing and fashion style were drawn from the summer music festival look many young women wore in 2015.
+ An 11×17" digital illustration of a monster babe with a flare for summer fashion. I based the fashion style and color palette on young women's outfits from summer music festivals in Seattle. 

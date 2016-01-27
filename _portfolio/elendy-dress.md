@@ -12,4 +12,4 @@ featured:   false
 weight:     9
 ---
 
-Semiotic and season focused project. I chose to make a “trendy” and elegant dress that could be worn in summer and fall. The dress is made to wear from the remnants of a dress bra that can be adjusted for comfort. The shapelessness matched with the neckline allow for a graceful and flattering dress. Made with all recycled material and hand sewn.
+I made a trendy and elegant dress that could be worn in summer and fall. The dress is made from the remnants of a dress bra which can be adjusted for comfort. The shapelessness of the fabric matched with the neckline allows for a graceful and flattering flow with the body. Hand sewn with all recycled material.

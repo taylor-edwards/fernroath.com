@@ -12,4 +12,4 @@ featured:   false
 weight:     5
 ---
 
-“MAGIC”. 18×24 in hand screen printed poster. One layer. For this project we were to take a simple word assigned to us and create a poster. I chose to derive my visuals from the more traditional magic of mixing herbs and giving it a natural feel with the style of traditional tattoos.
+“MAGIC.” For this poster I was challenged to take a simple word and give it visual form. I derived my visuals from the more traditional magic of mixing herbs and old style tattoos. MAGIC is an 18×24" hand screen printed poster.
