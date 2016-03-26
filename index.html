@@ -7,7 +7,7 @@ weight:    0
 <div class="row portfolio">
 {% assign pages = site.portfolio | sort: 'weight' %}
 {% for entry in pages %}
-  <div class="column-{% if entry.featured %}4{% else %}2{% endif %} preview">
+  <div class="column-2 preview">
     <a href="{{ entry.url }}">
       <img src="/img/previews/{{ entry.preview }}">
       <h2 class="overlay">{{ entry.shortname }}</h2>
