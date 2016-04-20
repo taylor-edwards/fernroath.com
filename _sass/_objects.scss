@@ -1,6 +1,12 @@
 header > .column-3 > ul.inline-list {
   float: right;
 }
+header > .column-3 > ul.h3 .icon {
+  margin-bottom: -.1em;
+}
+main > .row:last-child {
+  margin-top: .75em;
+}
 .image-list > li {
   margin: .6666667em 0;
   &:first-child {
