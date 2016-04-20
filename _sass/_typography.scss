@@ -13,17 +13,28 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-weight: normal;
+  font-family: $base-sans;
+  font-weight: 400;
   margin: 0;
+  letter-spacing: .075em;
 }
 h1 {
-  font-size: 1.5em;
+  font-size: 1.15em;
+  letter-spacing: .15em;
+  text-transform: uppercase;
 }
 h2, .h2 {
-  font-size: 1.5em;
+  font-size: .95em;
 }
 h3, .h3 {
-  font-size: 1.2em;
+  font-size: .95em;
+  text-transform: uppercase;
+}
+h4, .h4 {
+  font-size: .8em;
+  letter-spacing: .2em;
+  line-height: 1.8;
+  text-transform: uppercase;
 }
 .space {
   letter-spacing: .1em;
@@ -43,6 +54,12 @@ hr {
   border: none;
   border-bottom: .125em solid $brand-primary;
   margin: 0;
+}
+.sans {
+  font-family: $base-sans;
+}
+.strong {
+  font-weight: 700;
 }
 .inline,
 .inline-list {

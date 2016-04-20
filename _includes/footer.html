@@ -20,11 +20,11 @@
     <svg viewBox="0 0 512 512" class="icon flipped-h">
       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
     </svg>
-    <span class="mobile-hide">{{ previousPage.title }}</span>
+    <span class="h4 mobile-hide">{{ previousPage.title }}</span>
   </a>
 </div>
 <div class="column-2 all text-center float-left">
-  <ul class="h3 inline inline-list tablet-hide desktop-hide">
+  <ul class="h4 inline inline-list tablet-hide desktop-hide">
 {% assign pages = site.pages | sort: 'weight' %}
 {% for page in pages %}
   {% if page.title and page.weight != 0 %}
@@ -49,7 +49,7 @@
   {% endfor %}
 {% endif %}
   <a href="{{ nextPage.permalink }}" class="reversed arrow">
-    <span class="mobile-hide">{{ nextPage.title }}</span>
+    <span class="h4 mobile-hide">{{ nextPage.title }}</span>
     <svg viewBox="0 0 512 512" class="icon">
       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
     </svg>
