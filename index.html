@@ -6,6 +6,9 @@ weight:    0
 ---
 <div class="row portfolio">
 {% assign pages = site.portfolio | sort: 'weight' %}
+  <div class="column-6">
+    <img src="/img/peridot_banner.jpg" alt="Peridot. April 2016.">
+  </div>
 {% for entry in pages %}
   <div class="column-2 preview">
     <a href="{{ entry.url }}">

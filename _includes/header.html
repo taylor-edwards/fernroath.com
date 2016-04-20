@@ -41,6 +41,9 @@
     {% endif %}
   {% endif %}
 {% endfor %}
+    {% if site.resume %}
+      <li><a href="{{ site.resume }}" target="_blank" class="reversed">Résumé</a></li>
+    {% endif %}
     </ul>
   </nav>
 </div>
