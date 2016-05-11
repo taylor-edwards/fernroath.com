@@ -7,6 +7,12 @@ header > .column-3 > ul.h3 .icon {
 main > .row:last-child {
   margin-top: .75em;
 }
+.banner-container {
+  max-width: 100%;
+}
+.banner {
+  min-width: 640px;
+}
 .image-list > li {
   margin: .6666667em 0;
   &:first-child {

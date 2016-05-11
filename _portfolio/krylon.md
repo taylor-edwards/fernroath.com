@@ -4,8 +4,8 @@ title:      Krylon Nature POP
 shortname:  Nature POP
 permalink:  /krylon-nature-pop/
 preview:    krylon-spray-paint.jpg
-main:       krylon-spray-paint.jpg
-process:    [krylon-pink-closeup.jpg, krylon-yellow-closeup.jpg, krylon-green-closeup.jpg]
+main:       naturePopTop.jpg
+process:    [krylon-spray-paint.jpg, krylon-pink-closeup.jpg, krylon-yellow-closeup.jpg, krylon-green-closeup.jpg]
 desc:       Student Work
 client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts<br>Spring&nbsp;2015
 featured:   true

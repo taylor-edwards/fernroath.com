@@ -4,8 +4,8 @@ title:      Tough Bunni
 shortname:  Tough Bunni
 permalink:  /tough-bunni/
 preview:    tough-bunni.jpg
-main:       [tough-bunni-1.jpg, tough-bunni-2.jpg, tough-bunni-3.jpg]
-process:    []
+main:       [toughBunniTop.jpg]
+process:    [tough-bunni-1.jpg, tough-bunni-2.jpg, tough-bunni-3.jpg]
 desc:       Personal Work
 client:     Summer&nbsp;2015
 featured:   false

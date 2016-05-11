@@ -5,7 +5,7 @@ shortname:  Peridot
 permalink:  /peridot/
 preview:    peridot.jpg
 main:       [peridot.jpg]
-process:    []
+process:    [peridotFemaleLineUp.jpg, peridotMalelineUp.jpg, peridotPatterns.jpg]
 desc:       Student Work
 client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts<br>Fall&nbsp;2015
 featured:   false

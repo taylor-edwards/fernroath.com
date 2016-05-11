@@ -1,11 +1,11 @@
 ---
-layout:     page-vertical
+layout:     page-horizontal
 title:      MAGIC
 shortname:  MAGIC
 permalink:  /magic/
 preview:    magic.jpg
-main:       magic.jpg
-process:    [magic-process.jpg, magic-sketchbook.jpg]
+main:       magicPosterTop.jpg
+process:    [magic.jpg, magic-process.jpg, magic-sketchbook.jpg]
 desc:       Personal Work
 client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts<br>Fall&nbsp;2015
 featured:   false

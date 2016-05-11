@@ -1,5 +1,5 @@
 body {
-  margin: 0 .5em;
+  margin: 1em 0 2em;
 }
 // Bootstrap clearfix
 header,
@@ -34,6 +34,7 @@ footer {
 .container {
   margin: auto;
   max-width: 1200px;
+  padding: 0 .5em;
 }
 .row:last-of-type {
   margin: 0 0 1.3333333em;
@@ -83,8 +84,8 @@ img {
   }
 }
 @include media-query($on-tablet) {
-  body {
-    margin: .5em 1em;
+  .container {
+    padding: 0 1em;
   }
   .column-1,
   .column-2,
@@ -132,8 +133,8 @@ img {
   }
 }
 @include media-query($on-desktop) {
-  body {
-    margin: 1em 8em;
+  .container {
+    padding: 0 8em;
   }
   .column-1 {
     width: calc(16.6666667% - 1.3333333em);
