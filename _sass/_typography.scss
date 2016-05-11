@@ -19,19 +19,19 @@ h6, .h6 {
   letter-spacing: .075em;
 }
 h1 {
-  font-size: 1.15em;
+  font-size: 1.35em;
   letter-spacing: .15em;
   text-transform: uppercase;
 }
 h2, .h2 {
-  font-size: .95em;
+  font-size: 1.1em;
 }
 h3, .h3 {
-  font-size: .95em;
+  font-size: 1.1em;
   text-transform: uppercase;
 }
 h4, .h4 {
-  font-size: .8em;
+  font-size: .926em;
   letter-spacing: .2em;
   line-height: 1.8;
   text-transform: uppercase;
@@ -41,7 +41,7 @@ h4, .h4 {
 }
 p,
 ul {
-  line-height: 1.3333333;
+  line-height: $base-line-height;
   margin: 0 0 1em;
 }
 h1 + p {

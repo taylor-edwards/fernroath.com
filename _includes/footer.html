@@ -24,6 +24,9 @@
   </a>
 </div>
 <div class="column-2 all text-center float-left">
+{% if site.resume %}
+  <a href="{{ site.resume }}" target="_blank" class="h4 reversed">Résumé</a>
+{% endif %}
   <ul class="h4 inline inline-list tablet-hide desktop-hide">
 {% assign pages = site.pages | sort: 'weight' %}
 {% for page in pages %}
