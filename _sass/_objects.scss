@@ -14,19 +14,35 @@ main > .row:last-child {
   }
 }
 .preview {
-  background: $med-grey;
+  display: inline-block;
   letter-spacing: .05em;
   overflow: hidden;
   transform: translate3d(0,0,0);
-  transition: background ease-out 750ms;
   word-spacing: -.1em;
   & > a > img {
     display: block;
     margin: auto;
-    min-width: 100%;
+    width: 100%;
   }
 }
-.preview:hover {
+.preview > a::after {
+  background-image:
+    linear-gradient(
+      to right, 
+      rgba(255,255,255,0) 66.6666667%,
+      rgba(67, 117, 76, .16666667)
+    );
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity ease-out 750ms;
+  width: 100%;
+}
+.preview > a:hover::after {
+  opacity: 1;
 }
 .overlay {
   background: #333;
@@ -39,7 +55,7 @@ main > .row:last-child {
   letter-spacing: .1em;
   padding: .25em 1em;
   position: absolute;
-  right: 8.3333333%;
+  right: $grid-hbase / 6;
   mix-blend-mode: multiply;
   top: 50%;
   -webkit-transform: translate(0, -50%);

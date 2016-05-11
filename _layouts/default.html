@@ -6,8 +6,11 @@
     <div class="container">
       <header>{% include header.html %}</header>
       <main>{{ content }}</main>
-      <footer class="tablet-hide desktop-hide">
+      <footer>
         <div class="column-6 all text-center float-left">
+        {% if site.resume %}
+          <a href="{{ site.resume }}" target="_blank" class="h4 reversed">Résumé</a>
+        {% endif %}
           <ul class="h3 inline inline-list tablet-hide desktop-hide">
         {% assign pages = site.pages | sort: 'weight' %}
         {% for page in pages %}
