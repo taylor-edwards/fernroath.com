@@ -7,7 +7,11 @@ preview:    peridot.jpg
 main:       [peridot.jpg]
 process:    [peridotFemaleLineUp.jpg, peridotMalelineUp.jpg, peridotPatterns.jpg]
 desc:       Student Work
+<<<<<<< HEAD
+client:     Cornish College of the Arts Spring; 2016
+=======
 client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts 2015
+>>>>>>> origin/v1.1
 featured:   false
 weight:     2
 ---
