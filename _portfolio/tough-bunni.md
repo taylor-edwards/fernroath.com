@@ -9,7 +9,7 @@ process:    []
 desc:       Personal Work
 client:     Summer&nbsp;2015
 featured:   false
-weight:     3
+weight:     5
 ---
 
 Tough Bunni is a triptych that was focused on color experimentation through the formation of three rabbit warriors representing magic, might and mischief respectively. Each of these warriors gains the title “Tough Bunni” in blackletter type.
