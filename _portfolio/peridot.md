@@ -5,7 +5,7 @@ shortname:  Peridot
 permalink:  /peridot/
 preview:    peridot.jpg
 main:       [peridotTop.jpg]
-process:    [peridotFemaleLineUp.jpg, peridotMalelineUp.jpg, peridotPatterns.jpg, peridotCroquis.jpg]
+process:    [peridotFemaleLineUp.jpg, peridotMaleLineUp.jpg, peridotPatterns.jpg, peridotCroquis.jpg]
 desc:       Cornish College of the Arts, Spring 2016
 featured:   false
 weight:     2
