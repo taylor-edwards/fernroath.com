@@ -6,8 +6,7 @@ permalink:  /deadly-apple-cider/
 preview:    deadly-apple-cider.jpg
 main:       [deadlyAppleCiderTop.jpg]
 process:    [deadlyWebBanner.jpg, deadlyLabelsFull.jpg, deadlyMockup.jpg]
-desc:
-client:     Cornish College of the Arts Fall; 2015
+desc:       Cornish College of the Arts, Fall 2015
 featured:   false
 weight:     1
 ---

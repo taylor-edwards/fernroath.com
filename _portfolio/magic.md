@@ -6,8 +6,7 @@ permalink:  /magic/
 preview:    magic.jpg
 main:       magicPosterTop.jpg
 process:    [magic.jpg, magic-process.jpg, magic-sketchbook.jpg]
-desc:       Personal Work
-client:     Cornish College of the Arts Fall; 2015
+desc:       Cornish College of the Arts, Fall 2015
 featured:   false
 weight:     7
 ---
