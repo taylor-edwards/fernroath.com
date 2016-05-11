@@ -7,7 +7,7 @@ preview:    magic.jpg
 main:       magicPosterTop.jpg
 process:    [magic.jpg, magic-process.jpg, magic-sketchbook.jpg]
 desc:       Personal Work
-client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts<br>Fall&nbsp;2015
+client:     Cornish College of the Arts Fall; 2015
 featured:   false
 weight:     7
 ---
