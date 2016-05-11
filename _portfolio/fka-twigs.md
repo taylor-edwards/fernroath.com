@@ -5,7 +5,12 @@ shortname:  FKA Twigs
 permalink:  /fka-twigs-poster/
 preview:    fka-twigs-poster.jpg
 main:       [fkaTwigsTop.jpg]
-process:    [fka-twigs-type_a.jpg, fka-twigs-type_b.jpg, fka-layers.jpg, fka-gold-detail.jpg, fka-held.jpg]
+process:    [
+              [fka-twigs-type_a.jpg, fka-twigs-type_b.jpg],
+              fkaTwigsEyes.jpg,
+              fkaTwigsLavender.jpg,
+              fkaTwigsType.jpg
+            ]
 desc:       Student Work
 client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts<br>Fall&nbsp;2015
 featured:   false

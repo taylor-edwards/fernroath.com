@@ -10,27 +10,33 @@ layout: portfolio
   <img class="banner" src="/img/displays/{{ image }}">
 {% endfor %}
 </div>
-{% assign length = page.process | size %}
-{% if length > 0 %}
 <div class="container">
   <div class="row">
     <div class="column-6">
       <h1 class="strong">{{ page.title }}</h1>
       <h4>{{ page.client }}<br>{{ page.desc }}</h4>
     </div>
-    <div class="column-4">
+    <div class="column-6">
       {{ content }}
     </div>
   </div>
   <div class="row">
-    {% if length > 6 %}
-      {% assign length = 1 %}
+{% for image in page.process %}
+  {% assign imageSize = image | size %}
+  {% if imageSize < 5 %}
+    {% if imageSize > 3 %}
+      {% assign imageSize = 6 %}
     {% endif %}
-    {% for image in page.process %}
+    {% for imagePart in image %}
+      <div class="column-{{ 6 || divided_by: imageSize }}">
+        <img src="/img/process/{{ imagePart }}">
+      </div>
+    {% endfor %}
+  {% else %}
       <div class="column-6">
         <img src="/img/process/{{ image }}">
       </div>
-    {% endfor %}
-  </div>
   {% endif %}
+{% endfor %}
+  </div>
 </div>

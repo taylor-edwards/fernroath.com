@@ -5,7 +5,7 @@ shortname:  KNDY Condoms
 permalink:  /trojan-kndy-condoms/
 preview:    trojan-kndy-condoms.jpg
 main:       [kndyTop.jpg]
-process:    [trojan-kndy-condoms.jpg, kndy-rockcandy-texture.jpg, kndy-birthday-texture.jpg, kndy-peachrings-texture.jpg]
+process:    [trojan-kndy-condoms.jpg, [kndy-rockcandy-texture.jpg, kndy-birthday-texture.jpg, kndy-peachrings-texture.jpg]]
 desc:       Student Work
 client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts<br>Spring&nbsp;2015
 featured:   false

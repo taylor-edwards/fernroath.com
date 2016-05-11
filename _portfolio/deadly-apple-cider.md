@@ -7,6 +7,7 @@ preview:    deadly-apple-cider.jpg
 main:       [deadlyAppleCiderTop.jpg]
 process:    [deadlyWebBanner.jpg, deadlyLabelsFull.jpg, deadlyMockup.jpg]
 desc:       
+hasInlineImages: false
 client:     Cornish&nbsp;College of&nbsp;the&nbsp;Arts 2016
 featured:   false
 weight:     1
