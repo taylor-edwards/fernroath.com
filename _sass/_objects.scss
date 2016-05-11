@@ -9,6 +9,11 @@ main > .row:last-child {
 }
 .banner-container {
   max-width: 100%;
+  overflow: hidden;
+}
+.banner-container,
+.banner-container + .container > .row {
+  margin-bottom: 1em;
 }
 .banner {
   min-width: 640px;
@@ -47,7 +52,8 @@ main > .row:last-child {
   transition: opacity ease-out 750ms;
   width: 100%;
 }
-.preview > a:hover::after {
+.preview > a:hover::after,
+.preview > a:focus::after {
   opacity: 1;
 }
 .overlay {
@@ -61,7 +67,7 @@ main > .row:last-child {
   letter-spacing: .1em;
   padding: .25em 1em;
   position: absolute;
-  right: $grid-hbase / 6;
+  right: $grid-hbase / 24;
   mix-blend-mode: multiply;
   top: 50%;
   -webkit-transform: translate(0, -50%);
@@ -102,7 +108,16 @@ svg {
       margin-top: 0;
     }
   }
+  .banner-container,
+  .banner-container + .container > .row {
+    margin-bottom: 3em;
+  }
+  .overlay {
+    right: $grid-hbase / 12;
+  }
 }
 @include media-query($on-desktop) {
-
+  .overlay {
+    right: $grid-hbase / 6;
+  }
 }

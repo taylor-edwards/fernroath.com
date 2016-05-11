@@ -27,13 +27,15 @@ h2, .h2 {
   font-size: 1.1em;
 }
 h3, .h3 {
-  font-size: 1.1em;
-  text-transform: uppercase;
-}
-h4, .h4 {
   font-size: .926em;
   letter-spacing: .2em;
   line-height: 1.8;
+  text-transform: uppercase;
+}
+h4, .h4 {
+  font-size: .85em;
+  letter-spacing: .2em;
+  line-height: 1.65;
   text-transform: uppercase;
 }
 .space {
@@ -43,6 +45,9 @@ p,
 ul {
   line-height: $base-line-height;
   margin: 0 0 1em;
+}
+p {
+  max-width: 578px;
 }
 h1 + p {
   margin-top: 1em;
