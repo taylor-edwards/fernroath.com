@@ -1,5 +1,5 @@
 ---
-layout:     page-horizontal
+layout:     project
 title:      Deadly Apple Cider
 shortname:  Deadly Apple Cider
 permalink:  /deadly-apple-cider/

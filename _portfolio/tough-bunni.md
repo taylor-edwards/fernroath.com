@@ -1,5 +1,5 @@
 ---
-layout:     page-horizontal
+layout:     project
 title:      Tough Bunni
 shortname:  Tough Bunni
 permalink:  /tough-bunni/

@@ -1,0 +1,24 @@
+---
+layout: portfolio
+---
+<div class="project with-sidebar">
+  <div class="sidebar">
+    <h1 class="strong">{{ page.title }}</h1>
+    <p>{{ page.desc }}</p>
+    {{ content }}
+  </div>
+  <div class="project--gallery">
+    {%- for image in page.process -%}
+      {%- if image.first -%}
+        {%- comment -%} this is an array of images {%- endcomment -%}
+        <div class="row">
+          {%- for subImage in image -%}
+            <img src="/img/process/{{ subImage }}" class="project--image">
+          {%- endfor -%}
+        </div>
+      {%- else -%}
+        <img src="/img/process/{{ image }}" class="project--image">
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</div>

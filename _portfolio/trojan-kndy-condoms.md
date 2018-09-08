@@ -1,5 +1,5 @@
 ---
-layout:     page-horizontal
+layout:     project
 title:      Trojan KNDY Condoms
 shortname:  KNDY Condoms
 permalink:  /trojan-kndy-condoms/

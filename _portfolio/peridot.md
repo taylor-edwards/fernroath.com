@@ -1,5 +1,5 @@
 ---
-layout:     page-horizontal
+layout:     project
 title:      Peridot
 shortname:  Peridot
 permalink:  /peridot/

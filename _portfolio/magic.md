@@ -1,5 +1,5 @@
 ---
-layout:     page-horizontal
+layout:     project
 title:      MAGIC
 shortname:  MAGIC
 permalink:  /magic/

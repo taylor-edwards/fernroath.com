@@ -14,7 +14,7 @@ layout: portfolio
   <div class="row">
     <div class="column-6">
       <h1 class="strong">{{ page.title }}</h1>
-      <h4>{{ page.desc }}</h4>
+      <p>{{ page.desc }}</p>
     </div>
     <div class="column-6">
       {{ content }}
@@ -28,7 +28,7 @@ layout: portfolio
       {% assign imageSize = 6 %}
     {% endif %}
     {% for imagePart in image %}
-      <div class="column-{{ 6 || divided_by: imageSize }}">
+      <div class="column-{{ 6 | divided_by: imageSize }}">
         <img src="/img/process/{{ imagePart }}">
       </div>
     {% endfor %}

@@ -3,9 +3,8 @@
   {% include head.html %}
   <body>
     {% include top.html %}
-    <header class="container">{% include header.html %}</header>
-    <main>{{ content }}</main>
-    <footer class="container">{% include footer.html %}</footer>
+    {% include header.html %}
+    <main class="portfolio">{{ content }}</main>
     {% include bottom.html %}
   </body>
 </html>

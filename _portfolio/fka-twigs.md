@@ -1,5 +1,5 @@
 ---
-layout:     page-horizontal
+layout:     project
 title:      FKA Twigs Poster
 shortname:  FKA Twigs
 permalink:  /fka-twigs-poster/

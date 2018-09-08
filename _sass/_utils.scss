@@ -1,0 +1,109 @@
+@mixin scroll-x {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+@mixin scroll-y {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+@mixin scroll {
+  overflow: auto;
+}
+
+$size-default-x: 40px;
+$size-default-y: 30px;
+
+@mixin pad-t {
+  padding-top: $size-default-y;
+}
+
+@mixin pad-r {
+  padding-right: $size-default-x;
+}
+
+@mixin pad-b {
+  padding-bottom: $size-default-y;
+}
+
+@mixin pad-l {
+  padding-left: $size-default-x;
+}
+
+@mixin pad-h {
+  @include pad-l;
+  @include pad-r;
+}
+
+@mixin pad-v {
+  @include pad-b;
+  @include pad-t;
+}
+
+@mixin pad {
+  @include pad-h;
+  @include pad-v;
+}
+
+@mixin pad-t-half {
+  padding-top: $size-default-y / 2;
+}
+
+@mixin pad-r-half {
+  padding-right: $size-default-x / 2;
+}
+
+@mixin pad-b-half {
+  padding-bottom: $size-default-y / 2;
+}
+
+@mixin pad-l-half {
+  padding-left: $size-default-x / 2;
+}
+
+@mixin pad-h-half {
+  @include pad-l-half;
+  @include pad-r-half;
+}
+
+@mixin pad-v-half {
+  @include pad-b-half;
+  @include pad-t-half;
+}
+
+@mixin pad-half {
+  @include pad-h-half;
+  @include pad-v-half;
+}
+
+@mixin margin-t {
+  margin-top: $size-default-y;
+}
+
+@mixin margin-r {
+  margin-right: $size-default-x;
+}
+
+@mixin margin-b {
+  margin-bottom: $size-default-y;
+}
+
+@mixin margin-l {
+  margin-left: $size-default-x;
+}
+
+@mixin margin-h {
+  @include margin-l;
+  @include margin-r;
+}
+
+@mixin margin-v {
+  @include margin-b;
+  @include margin-t;
+}
+
+@mixin margin {
+  @include margin-h;
+  @include margin-v;
+}

@@ -44,12 +44,12 @@ h4, .h4 {
 p,
 ul {
   line-height: $base-line-height;
-  margin: 0 0 1em;
+  margin: 0;
 }
-p {
-  max-width: 578px;
-}
-h1 + p {
+p + p,
+p + ul,
+ul + p,
+h1 + p{
   margin-top: 1em;
 }
 ul {

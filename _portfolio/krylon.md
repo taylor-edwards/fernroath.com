@@ -1,5 +1,5 @@
 ---
-layout:     page-horizontal
+layout:     project
 title:      Krylon Nature POP
 shortname:  Nature POP
 permalink:  /krylon-nature-pop/
