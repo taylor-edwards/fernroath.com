@@ -10,6 +10,6 @@ Please follow the directions on [Jekyll's home page](https://jekyllrb.com/) to b
 Once you have Jekyll installed, or if you already did, run the installer and start the server on localhost:
 
 ```sh
-bundle install
-bundle exec jekyll serve
+bundler install
+bundler exec jekyll serve
 ```
