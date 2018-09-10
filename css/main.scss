@@ -28,6 +28,8 @@ $on-desktop:       1025px;
 $on-tablet:        561px;
 $on-mobile:        560px;
 
+$background: #fff;
+
 @mixin media-query($device) {
   @media screen and (min-width: $device) {
     @content;

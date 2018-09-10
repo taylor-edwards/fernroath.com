@@ -1,23 +1,25 @@
 ---
 layout: portfolio
 ---
-<div class="project with-sidebar">
+<div class="project with-sidebar" style="--local-highlight:{{ page.colorA }}">
   <div class="sidebar">
-    <h1 class="strong">{{ page.title }}</h1>
-    <p>{{ page.desc }}</p>
-    {{ content }}
+    <div class="title-callout">
+      <p class="tc--title">{{ page.title }}</p>
+      <p class="tc--desc">{{ page.desc }}</p>
+    </div>
+    <div class="content">{{ content }}</div>
   </div>
   <div class="project--gallery">
-    {%- for image in page.process -%}
+    {%- for image in page.main -%}
       {%- if image.first -%}
         {%- comment -%} this is an array of images {%- endcomment -%}
-        <div class="row">
+        <div class="row center">
           {%- for subImage in image -%}
-            <img src="/img/process/{{ subImage }}" class="project--image">
+            <img src="/img/displays/{{ subImage }}" class="project--image">
           {%- endfor -%}
         </div>
       {%- else -%}
-        <img src="/img/process/{{ image }}" class="project--image">
+        <img src="/img/displays/{{ image }}" class="project--image">
       {%- endif -%}
     {%- endfor -%}
   </div>

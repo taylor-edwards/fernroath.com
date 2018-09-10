@@ -7,16 +7,13 @@
     <main class="container">{{ content }}</main>
     <footer class="container">
       <div class="column-6 all text-center float-left">
-      {% if site.resume %}
-        <a href="{{ site.resume }}" target="_blank" class="h4 reversed">Résumé</a>
-      {% endif %}
         <ul class="h3 inline inline-list tablet-hide desktop-hide">
-      {% assign pages = site.pages | sort: 'weight' %}
-      {% for page in pages %}
-        {% if page.title and page.weight != 0 %}
-          <li><a href="{{ page.url | prepend: site.baseurl }}" class="reversed">{{ page.title }}</a></li>
-        {% endif %}
-      {% endfor %}
+          {% assign pages = site.pages | sort: 'weight' %}
+          {% for page in pages %}
+            {% if page.title and page.weight != 0 %}
+              <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
         </ul>
       </div>
     </footer>
