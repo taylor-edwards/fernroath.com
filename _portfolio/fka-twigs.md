@@ -1,21 +1,22 @@
 ---
 layout:     page-horizontal
-title:      FKA Twigs Poster
-shortname:  FKA Twigs
+title:      FKA Twigs Band Poster
+shortname:  FKA Twigs Band Poster
 permalink:  /fka-twigs-poster/
-preview:    fka-twigs-poster.jpg
-main:       [fkaTwigsTop.jpg]
+preview:    fka_preview.png
+main:       [fka_top.png]
 process:    [
-              [fka-twigs-type_a.jpg, fka-twigs-type_b.jpg],
-              fkaTwigsEyes.jpg,
-              fkaTwigsLavender.jpg,
-              fkaTwigsType.jpg
+              [fka_blue.png, fka_yellow.png],
+              [fka_black.png, fka_purp.png]
+
             ]
 desc:       Cornish College of the Arts, Fall 2015
 featured:   false
-weight:     3
+weight:     5
 ---
 
-The premise of this project was to create a gig poster for an artist or musician. In wanting to design a poster for FKA Twigs, I wanted to capture both the elegance and the curiosities which she evokes with her music. This is an 18×24" three layer handmade screen print created with the collector audience in mind. TYPE A is an elegant version and TYPE B captures a twist of curiosity.
+This is a 18×24” three layer screen printed poster created with the collector audience in mind. Printed in 2 versions, TYPE A and TYPE B. I wanted to capture both the elegance and the curiosities which FKA Twigs evokes with her music.
 
-This poster was featured in the Cornish College of the Arts Burn & Swipe Poster Show in 2015.
+This poster was a student project & was featured in the Cornish College of the Arts Burn & Swipe Poster Show in 2015.
+
+Illustration, Screen Print, Poster Design, Typography
