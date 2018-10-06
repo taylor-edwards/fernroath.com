@@ -2,7 +2,7 @@
 layout:     page-horizontal
 title:      Identity
 shortname:  Identity
-permalink:  /self/
+permalink:  /identity/
 preview:    id_preview.jpg
 main:       [id_top.jpg]
 process:    [
@@ -12,7 +12,7 @@ process:    [
             ]
 desc:       Personal Branding & Identity, Fall 2018
 featured:   false
-weight:     2
+weight:     3
 ---
 
 Identity is the rebranding & redesign of my professional portfolio. I worked with aspects of design that I’ve often felt intimidated by while exploring my own personal strengths that I wanted future clients to experience while looking through my work. This site was designed from the base up and developed by Taylor Edwards.
