@@ -28,7 +28,7 @@ layout: portfolio
       {% assign imageSize = 6 %}
     {% endif %}
     {% for imagePart in image %}
-      <div class="column-{{ 6 || divided_by: imageSize }}">
+      <div class="column-{{ 6 | divided_by: imageSize }}">
         <img src="/img/process/{{ imagePart }}">
       </div>
     {% endfor %}
