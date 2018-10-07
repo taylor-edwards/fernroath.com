@@ -1,7 +1,7 @@
 ---
 layout:     page-horizontal
 title:      Magic&colon; The Gathering &ndash; Guild Week
-shortname:  MTG &ndash; Guild Week
+shortname:  Guild Week
 permalink:  /mtg-guild-week/
 preview:    guild_preview.png
 main:       [guild_top.png]
