@@ -11,11 +11,12 @@ process:    [
               [ff_three.png]
 
             ]
-desc:       Study - Product Packaging Design, Fall 2018
+desc:       Study &ndash; Product Packaging Design, Fall 2018
 featured:   false
 weight:     4
 ---
 
-Friday Fruits is a study of a faux cannabis dispensary & it’s products. This project includes logo design, packaging and illustration to help give a clean, kind feel. The three icons represent times of day and the generic feels of Sativa dominant (circle), Indica dominate (triangle) and hybrids (hexagon).
+Friday Fruits is a study of a faux cannabis dispensary and its products. This project includes logo design, packaging and illustration designed to entice shoppers through friendly geometric visuals. The three icons relate to specific times of day and represent sativa dominant, indica dominant and hybrid strains.
 
-Branding & Identity, Packaging design, illustration, typography, study
+Branding, identity, packaging design, illustration, typography
+

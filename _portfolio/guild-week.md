@@ -17,9 +17,9 @@ featured:   false
 weight:     1
 ---
 
-Ravnica is a plane set in the world famous trading card game, Magic: The Gathering. Guild Week was a promotional online advertisement campaign to promote the upcoming card set, Guilds of Ravnica. For 5 days a select guild would take over the Magic: The Gathering website & advertisements sent across Twitter, Facebook, Instagram and other social media platforms. Golgari, Izzet, Dimir, Boros and Selesnya showcased in September 2018. This project included black & white backlit images, 1x1 ads and social media sets such as headers and icons. The deliverables for each guild were localized in 11 languages.
+Guild Week was an advertisement campaign to promote the upcoming card set, Guilds of Ravnica, the third major set addition of 2018 to the world famous trading card game, Magic: The Gathering. To rally up players, I created light and dark variants of each advertisement using original artwork while following brand guidelines. The deliverables included social media assets such as headers and icons. All assets were localized into eleven languages and were displayed internationally on many platforms including Facebook, Instagram, and Twitter.
 
-Magic: The Gathering is a product of Wizards of the Coast, LLC & Hasbro, Inc.
-© 1995-2018 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.
+<small>Magic: The Gathering is a product of Wizards of the Coast, LLC & Hasbro, Inc.
+© 1995-2018 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.</small>
 
 Visual Design, Digital Painting, Photo Retouching, Layout, Advertising

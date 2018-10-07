@@ -16,9 +16,9 @@ featured:   false
 weight:     2
 ---
 
-Ads for Magic: The Gathering Arena Open Beta that went live on September 27, 2018. This was a quick turn around project that capsolated ads for multiple gaming journalism sites such as Eurogamer. Other asssets, such as headers & featured images were created as well.
+Wizards of the Coast released the latest chapter to the Magic: The Gathering franchise as an open beta in September 2018. These advertisements needed to entice players from competing online card games along with existing Magic fans. I created site takeover skins and a suite of digital ads with original art while following brand guidelines for Magic: The Gathering Arena. Using composition and a clear call to action, I helped create a visually compelling hierarchy that drove new users to download and enter the world of Magic: The Gathering.
 
-Magic: The Gathering and Magic: The Gathering Arena Open Beta are products of Wizards of the Coast, LLC & Hasbro, Inc.
-© 1995-2018 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.
+<small>Magic: The Gathering and Magic: The Gathering Arena Open Beta are products of Wizards of the Coast, LLC & Hasbro, Inc.
+© 1995-2018 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.</small>
 
 Production, Advertising, Digital Marketing, Visual Design
