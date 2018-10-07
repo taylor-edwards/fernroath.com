@@ -1,7 +1,7 @@
 ---
 layout:     page-horizontal
-title:      Magic&colon; The Gathering &ndash; Arena Open Beta Advertising
-shortname:  MTG &ndash; Arena Open Beta Advertising
+title:      Magic&colon; The Gathering &ndash; Arena Open Beta
+shortname:  MTG &ndash; Arena Open Beta
 permalink:  /mtg-arena-openbeta-ads/
 preview:    arena_preview.jpg
 main:       [arena_top.jpg]
