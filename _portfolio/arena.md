@@ -16,7 +16,7 @@ featured:   false
 weight:     2
 ---
 
-Ads for Magic: The Gathering Arena Open Beta that went live on September 28, 2018. This was a quick turn around project that capsolated ads for multiple gaming journalism sites such as Eurogamer. Other asssets, such as headers & featured images were created as well.
+Ads for Magic: The Gathering Arena Open Beta that went live on September 27, 2018. This was a quick turn around project that capsolated ads for multiple gaming journalism sites such as Eurogamer. Other asssets, such as headers & featured images were created as well.
 
 Magic: The Gathering and Magic: The Gathering Arena Open Beta are products of Wizards of the Coast, LLC & Hasbro, Inc.
 © 1995-2018 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.
