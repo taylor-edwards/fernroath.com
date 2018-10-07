@@ -8,7 +8,8 @@ main:       [arena_top.jpg]
 process:    [
             [arena_one.png],
             [arena_two.png],
-            [arena_three.png]
+            [arena_three.png],
+            [arena_four.png]
 
             ]
 desc:       Wizards of the Coast, LLC, Summer 2018
