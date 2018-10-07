@@ -25,6 +25,7 @@ main > .row:last-child {
   }
 }
 .preview {
+  border-radius: 100px;
   display: inline-block;
   letter-spacing: .05em;
   overflow: hidden;
@@ -39,9 +40,9 @@ main > .row:last-child {
 .preview > a::after {
   background-image:
     linear-gradient(
-      to right, 
+      to right,
       rgba(255,255,255,0) 66.6666667%,
-      rgba(67, 117, 76, .16666667)
+      rgba($brand-secondary, .16666667)
     );
   content: "";
   height: 100%;

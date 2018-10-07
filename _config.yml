@@ -1,6 +1,6 @@
 # Site settings
 title: Fern Roath
-subtitle: Designer & Illustrator
+subtitle: Visual Designer & Illustrator
 email: me@fernroath.com
 
 baseurl: ""
@@ -9,8 +9,6 @@ url: "http://fernroath.com"
 twitter_username: hihellofern
 instagram_username: hihellofern
 linkedin_url: fernroath
-
-resume: /assets/Fern_Roath-Designer_Illustrator-2016.pdf
 
 logo: assets/logo.png
 

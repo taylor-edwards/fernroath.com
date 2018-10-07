@@ -20,7 +20,7 @@
     <svg viewBox="0 0 512 512" class="icon flipped-h">
       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
     </svg>
-    <span class="h4 mobile-hide">{{ previousPage.title }}</span>
+    <span class="h4 mobile-hide">{{ previousPage.shortname }}</span>
     <span class="h4 mobile-show">Prev</span>
   </a>
 </div>
@@ -53,7 +53,7 @@
   {% endfor %}
 {% endif %}
   <a href="{{ nextPage.permalink }}" class="reversed arrow">
-    <span class="h4 mobile-hide">{{ nextPage.title }}</span>
+    <span class="h4 mobile-hide">{{ nextPage.shortname }}</span>
     <span class="h4 mobile-show">Next</span>
     <svg viewBox="0 0 512 512" class="icon">
       <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow"></use>
